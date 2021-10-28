@@ -1,6 +1,6 @@
 const { Client, Intents } = require('discord.js');
 
-console.log(process.ENV, process.NODE_ENV)
+console.log(process.env, process.NODE_ENV)
 
 const client = new Client({ intents: Object.keys(Intents.FLAGS) });
 
