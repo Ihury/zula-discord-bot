@@ -1,8 +1,8 @@
 {
-  "name": "zula_brasil",
+  "name": "bot_aulas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.2.0",
+    "discord.js": "^13.0.0",
     "dotenv": "^10.0.0"
   }
 }
