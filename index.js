@@ -1,6 +1,6 @@
 const { Client, Intents } = require('discord.js');
-const dotenv = require('dotenv');
-dotenv.config();
+
+console.log(process.ENV, process.NODE_ENV)
 
 const client = new Client({ intents: Object.keys(Intents.FLAGS) });
 
